@@ -1,0 +1,77 @@
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-title {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .input-container {
+    margin: 20px 0;
+  }
+  
+  .file-input,
+  .url-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .file-input:focus,
+  .url-input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .video-player {
+    margin: 20px 0;
+  }
+  
+  .process-button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .process-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .output-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+  }
+  
+  .output-text {
+    white-space: pre-wrap; /* Keeps line breaks */
+    overflow-x: auto; /* Allows horizontal scrolling if necessary */
+  }
+  .frames-to-skip-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+  }
+  
+  .frames-to-skip-input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  

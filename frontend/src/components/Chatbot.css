@@ -1,0 +1,182 @@
+/* Styles for chatbot logo floating button */
+.chatbot-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 90px;
+    height: 90px;
+    background-color: #007bff;
+    border-radius: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.chatbot-logo img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.chatbot-logo:hover {
+    transform: scale(1.1);
+}
+
+/* Styles for the chatbot modal */
+.chatbot-modal {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    width: 420px;
+    max-height: 900px; /* Limit the height of the modal */
+    background-color: white;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    z-index: 1000;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header for chatbot modal */
+.chatbot-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eee;
+}
+
+.chatbot-header h2 {
+    font-size: 20px;
+    color: #007bff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.close-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: #999;
+}
+
+.close-btn:hover {
+    color: #ff5f5f;
+}
+
+/* Chatbot messages container */
+.chatbot-messages {
+    /*flex-grow: 1;*/
+    margin-bottom: 15px;
+    padding-right: 10px;
+    height: 700px; 
+    overflow-y: scroll; 
+}
+
+/* Chatbot message styling */
+.chatbot-message {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.chatbot-bubble {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    max-width: 80%;
+    word-wrap: break-word; /* Allow text to wrap */
+    font-size: 14px;
+}
+
+/* Input field for the chatbot */
+.chatbot-input {
+    width: calc(100% - 20px);
+    padding: 15px;
+    border-radius: 25px; /* More rounded corners */
+    border: 2px solid #ddd;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: #fafafa; /* Light background for a clean look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.chatbot-input:focus {
+    border-color: #007bff;
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.3); /* Glowing effect when focused */
+    background-color: #fff; /* Lighten the background on focus */
+}
+
+/* Submit button styling */
+.chatbot-submit {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px; /* Rounded corners for the button */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for a floating effect */
+}
+
+.chatbot-submit:hover {
+    background-color: #0056b3;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.chatbot-submit:active {
+    background-color: #004494;
+    box-shadow: inset 0 4px 6px rgba(0, 0, 0, 0.2); /* Pressed down effect */
+}
+
+/* Additional styling to make the overall container more appealing */
+.chatbot-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Large shadow for the entire chat window */
+}
+
+/* Scrollbar customization */
+.chatbot-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.chatbot-messages::-webkit-scrollbar-thumb {
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+.chatbot-messages::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .chatbot-modal {
+        width: 90%; /* Full width on smaller screens */
+        height: auto; /* Adjust height to fit content */
+    }
+
+    .chatbot-bubble {
+        max-width: 90%; /* Allow more space for messages */
+    }
+}
