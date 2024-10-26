@@ -1,6 +1,12 @@
 # Use an official Python runtime as a base image
 FROM python:3.10
 
+# Define the build argument
+ARG API_KEY  
+
+# Optionally, set it as an environment variable
+ENV API_KEY=${API_KEY}  
+
 # Set the working directory
 WORKDIR /app
 
