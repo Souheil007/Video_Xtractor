@@ -29,7 +29,7 @@ load_dotenv()
 api_key = os.getenv("API_KEY")
 
 # Set the API key for authentication
-genai.configure(api_key)
+genai.configure("AIzaSyC9Sda5-DuB2sDAlyPnUQ-n4mTPlNyeuHc")
 
 
 app = FastAPI()
