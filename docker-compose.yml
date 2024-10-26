@@ -4,6 +4,10 @@ services:
   backend:
     build:
       context: ./backend
+      args:
+        API_KEY: "${API_KEY}"  # Pass the API key as a build argument
+    environment:
+      - API_KEY=${API_KEY}  # Set it as an environment variable if you need it at runtime
     ports:
       - "8000:8000"
     depends_on:
