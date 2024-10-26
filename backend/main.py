@@ -26,7 +26,7 @@ ydl_opts = {
 load_dotenv()
 
 # Access your API key as an environment variable
-api_key = os.getenv("API_KEY")
+api_key = os.getenv("AIzaSyC9Sda5-DuB2sDAlyPnUQ-n4mTPlNyeuHc")
 
 # Set the API key for authentication
 genai.configure(api_key=os.environ["API_KEY"])
