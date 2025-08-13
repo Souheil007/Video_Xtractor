@@ -11,6 +11,14 @@
 * **YouTube Integration**: Input YouTube URLs to extract code from online videos.
 * **User-friendly Interface**: Built with React.js for the frontend and FastAPI for the backend, ensuring a responsive and intuitive experience.
 
+## Video Demo
+
+You can add a video demo here to showcase the application in action:
+
+[![Video Demo](URL_TO_THUMBNAIL)](https://www.linkedin.com/posts/souheil-bichiou-036079279_coding-project-tech-activity-7244418771249942528-jgOM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPRw-oB_ukvBr0H2Jg3zrBbea8305sCDV8)
+
+Replace `URL_TO_THUMBNAIL` with your thumbnail image URL and `URL_TO_VIDEO` with the link to your demo video.
+
 ## Installation
 
 ### Prerequisites
