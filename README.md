@@ -2,7 +2,7 @@
 
 ## Overview
 
-**Video\_Xtractor** is a web-based application designed to extract and retrieve code snippets from specific frames of local or YouTube videos. By providing a timestamp or URL, users can seamlessly access relevant code segments, enhancing learning and development workflows.
+**Video\_Code\_Extractor** is a web-based application designed to extract and retrieve code snippets from specific frames of local or YouTube videos. By providing a timestamp or URL, users can seamlessly access relevant code segments, enhancing learning and development workflows.
 
 ## Features
 
