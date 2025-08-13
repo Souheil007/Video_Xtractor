@@ -15,9 +15,7 @@
 
 You can add a video demo here to showcase the application in action:
 
-[![Video Demo](URL_TO_THUMBNAIL)](https://www.linkedin.com/posts/souheil-bichiou-036079279_coding-project-tech-activity-7244418771249942528-jgOM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPRw-oB_ukvBr0H2Jg3zrBbea8305sCDV8)
-
-Replace `URL_TO_THUMBNAIL` with your thumbnail image URL and `URL_TO_VIDEO` with the link to your demo video.
+[![Video Demo](https://www.google.com/search?sca_esv=827ca067cae54b45&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQ_pbg5bWizQs3A_kIenjtcpTTqBUdyVgzq0c3_k8z34EAuM72an33lMW6RWde9ePJpwNFtZw3UQvFloZy04_0a7Y_s9Q2prhO8GUp_-RabNoWBXexBhzeXMQlUILLh2ARtfR9QNvwqh5uPW0knmdMojKOxWeL4aHHp3t_o5qsNUJAbfMQ&q=code+Extractor&sa=X&ved=2ahUKEwjQjYn714ePAxXGfKQEHYTGE10QtKgLegQIFxAB&biw=1463&bih=780&dpr=1.75#vhid=9JJs2BBCgpwLlM&vssid=mosaic)](https://www.linkedin.com/posts/souheil-bichiou-036079279_coding-project-tech-activity-7244418771249942528-jgOM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEPRw-oB_ukvBr0H2Jg3zrBbea8305sCDV8)
 
 ## Installation
 
